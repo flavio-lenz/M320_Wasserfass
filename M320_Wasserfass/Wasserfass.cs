@@ -9,6 +9,14 @@ public class Wasserfass
     public int fuellstand;
     public int kapazitaet;
 
+    public Wasserfass(int minimalPegel, int maximalPegel, int kapazitaet)
+    {
+        this.minimalPegel = minimalPegel;
+        this.maximalPegel = maximalPegel;
+        this.kapazitaet = kapazitaet;
+        this.fuellstand = 0;
+    }
+
     public int getFuellstand()
     {
         return fuellstand;
